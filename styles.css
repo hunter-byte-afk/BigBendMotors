@@ -22,6 +22,8 @@ body, html {
     overflow-x: hidden;
 }
 
+
+
 /* Text center utility */
 .center {
     text-align: center;
@@ -87,6 +89,20 @@ nav ul li a:hover {
     font-size: 2rem;
     cursor: pointer;
     color: var(--neon);
+}
+/* Container */
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+}
+
+/* Default paragraph spacing for consistent text flow */
+p {
+    margin: 0 0 1rem;
+    line-height: 1.6;
 }
 
 /* ------------------------------------------------------
