@@ -66,3 +66,12 @@ function animate() {
 
 initParticles();
 animate();
+
+function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+}
+
+function toggleLightMode() {
+    var elemt = document.body;
+    elemt.classList.toggle("light-mode");
+}
